@@ -20,7 +20,7 @@ class addCategory: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
     @IBOutlet weak var mySegment: UISegmentedControl!
     @IBOutlet weak var btnAnnulla: UIButton!
     @IBOutlet weak var btnAggiungi: UIButton!
-
+//buba
     var categorie:[Categoria] = MyDB.instance.getCategorie()
     var selectedIndex = 0
     override func viewDidLoad() {
