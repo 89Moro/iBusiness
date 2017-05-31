@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var btnPlus: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +20,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet weak var btnAddCategory_TouchUp: UIButton!
 
+    @IBAction func btnPlus_TouchUp(_ sender: Any) {
+        performSegue(withIdentifier: "segueAddCategory",sender:self)
+    }
 
 }
 

@@ -14,6 +14,14 @@
 		4DC799F01EDEEBDF0035E5C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC799EE1EDEEBDF0035E5C9 /* LaunchScreen.storyboard */; };
 		4DC799FB1EDEEBDF0035E5C9 /* iBudgetManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC799FA1EDEEBDF0035E5C9 /* iBudgetManagerTests.swift */; };
 		4DC79A061EDEEBDF0035E5C9 /* iBudgetManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC79A051EDEEBDF0035E5C9 /* iBudgetManagerUITests.swift */; };
+		4DC79A141EDEECD70035E5C9 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC79A131EDEECD70035E5C9 /* SQLite.framework */; };
+		4DC79A161EDEECFD0035E5C9 /* MyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC79A151EDEECFD0035E5C9 /* MyDB.swift */; };
+		4DC79A171EDEED3D0035E5C9 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC79A131EDEECD70035E5C9 /* SQLite.framework */; };
+		4DC79A181EDEED3D0035E5C9 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC79A131EDEECD70035E5C9 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4DC79A1B1EDEF3E50035E5C9 /* Categorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC79A1A1EDEF3E50035E5C9 /* Categorie.swift */; };
+		4DC79A1D1EDEF5690035E5C9 /* Movimenti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC79A1C1EDEF5690035E5C9 /* Movimenti.swift */; };
+		4DC79A1F1EDF00820035E5C9 /* addCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC79A1E1EDF00820035E5C9 /* addCategory.swift */; };
+		F4997939A6045106FFF34456 /* Pods_iBudgetManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901823FB9FEE3761618AFA4B /* Pods_iBudgetManager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +41,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4DC79A191EDEED3D0035E5C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4DC79A181EDEED3D0035E5C9 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4BBF6C5B2F825EC4404F789B /* Pods-iBudgetManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBudgetManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBudgetManager/Pods-iBudgetManager.release.xcconfig"; sourceTree = "<group>"; };
 		4DC799E21EDEEBDF0035E5C9 /* iBudgetManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBudgetManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC799E51EDEEBDF0035E5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DC799E71EDEEBDF0035E5C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,13 @@
 		4DC79A011EDEEBDF0035E5C9 /* iBudgetManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBudgetManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC79A051EDEEBDF0035E5C9 /* iBudgetManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBudgetManagerUITests.swift; sourceTree = "<group>"; };
 		4DC79A071EDEEBDF0035E5C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC79A131EDEECD70035E5C9 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = "../../Library/Developer/Xcode/DerivedData/iBudgetManager-gxrufcysndbleyfflqrznjgzgalu/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework"; sourceTree = "<group>"; };
+		4DC79A151EDEECFD0035E5C9 /* MyDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDB.swift; sourceTree = "<group>"; };
+		4DC79A1A1EDEF3E50035E5C9 /* Categorie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categorie.swift; sourceTree = "<group>"; };
+		4DC79A1C1EDEF5690035E5C9 /* Movimenti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movimenti.swift; sourceTree = "<group>"; };
+		4DC79A1E1EDF00820035E5C9 /* addCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addCategory.swift; sourceTree = "<group>"; };
+		901823FB9FEE3761618AFA4B /* Pods_iBudgetManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBudgetManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95576991415E68A34D685EED /* Pods-iBudgetManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBudgetManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBudgetManager/Pods-iBudgetManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC79A141EDEECD70035E5C9 /* SQLite.framework in Frameworks */,
+				F4997939A6045106FFF34456 /* Pods_iBudgetManager.framework in Frameworks */,
+				4DC79A171EDEED3D0035E5C9 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,8 @@
 				4DC799F91EDEEBDF0035E5C9 /* iBudgetManagerTests */,
 				4DC79A041EDEEBDF0035E5C9 /* iBudgetManagerUITests */,
 				4DC799E31EDEEBDF0035E5C9 /* Products */,
+				E002BAF02BAD911E9CE7DEC5 /* Pods */,
+				DEF00943BDF459AEC0CC97B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +138,10 @@
 				4DC799EC1EDEEBDF0035E5C9 /* Assets.xcassets */,
 				4DC799EE1EDEEBDF0035E5C9 /* LaunchScreen.storyboard */,
 				4DC799F11EDEEBDF0035E5C9 /* Info.plist */,
+				4DC79A151EDEECFD0035E5C9 /* MyDB.swift */,
+				4DC79A1A1EDEF3E50035E5C9 /* Categorie.swift */,
+				4DC79A1C1EDEF5690035E5C9 /* Movimenti.swift */,
+				4DC79A1E1EDF00820035E5C9 /* addCategory.swift */,
 			);
 			path = iBudgetManager;
 			sourceTree = "<group>";
@@ -125,6 +164,24 @@
 			path = iBudgetManagerUITests;
 			sourceTree = "<group>";
 		};
+		DEF00943BDF459AEC0CC97B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC79A131EDEECD70035E5C9 /* SQLite.framework */,
+				901823FB9FEE3761618AFA4B /* Pods_iBudgetManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E002BAF02BAD911E9CE7DEC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95576991415E68A34D685EED /* Pods-iBudgetManager.debug.xcconfig */,
+				4BBF6C5B2F825EC4404F789B /* Pods-iBudgetManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +189,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DC79A0A1EDEEBDF0035E5C9 /* Build configuration list for PBXNativeTarget "iBudgetManager" */;
 			buildPhases = (
+				2F6B13C0379A8D6E1FF6F576 /* [CP] Check Pods Manifest.lock */,
 				4DC799DE1EDEEBDF0035E5C9 /* Sources */,
 				4DC799DF1EDEEBDF0035E5C9 /* Frameworks */,
 				4DC799E01EDEEBDF0035E5C9 /* Resources */,
+				788A7B7951C23C0EF5609B58 /* [CP] Embed Pods Frameworks */,
+				84026C9A2DE65721B8B1C0A3 /* [CP] Copy Pods Resources */,
+				4DC79A191EDEED3D0035E5C9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +315,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F6B13C0379A8D6E1FF6F576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		788A7B7951C23C0EF5609B58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBudgetManager/Pods-iBudgetManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84026C9A2DE65721B8B1C0A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBudgetManager/Pods-iBudgetManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DC799DE1EDEEBDF0035E5C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4DC799E81EDEEBDF0035E5C9 /* ViewController.swift in Sources */,
+				4DC79A1B1EDEF3E50035E5C9 /* Categorie.swift in Sources */,
+				4DC79A1D1EDEF5690035E5C9 /* Movimenti.swift in Sources */,
+				4DC79A1F1EDF00820035E5C9 /* addCategory.swift in Sources */,
 				4DC799E61EDEEBDF0035E5C9 /* AppDelegate.swift in Sources */,
+				4DC79A161EDEECFD0035E5C9 /* MyDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +523,7 @@
 		};
 		4DC79A0B1EDEEBDF0035E5C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95576991415E68A34D685EED /* Pods-iBudgetManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iBudgetManager/Info.plist;
@@ -422,6 +536,7 @@
 		};
 		4DC79A0C1EDEEBDF0035E5C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBF6C5B2F825EC4404F789B /* Pods-iBudgetManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iBudgetManager/Info.plist;
@@ -505,6 +620,7 @@
 				4DC79A0C1EDEEBDF0035E5C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DC79A0D1EDEEBDF0035E5C9 /* Build configuration list for PBXNativeTarget "iBudgetManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +629,7 @@
 				4DC79A0F1EDEEBDF0035E5C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DC79A101EDEEBDF0035E5C9 /* Build configuration list for PBXNativeTarget "iBudgetManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +638,7 @@
 				4DC79A121EDEEBDF0035E5C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
