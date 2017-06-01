@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47658DE61EDFF61F00D94271 /* addMovimenti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47658DE51EDFF61F00D94271 /* addMovimenti.swift */; };
 		4DC799E61EDEEBDF0035E5C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC799E51EDEEBDF0035E5C9 /* AppDelegate.swift */; };
 		4DC799E81EDEEBDF0035E5C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC799E71EDEEBDF0035E5C9 /* ViewController.swift */; };
 		4DC799EB1EDEEBDF0035E5C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC799E91EDEEBDF0035E5C9 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		4DC799F01EDEEBDF0035E5C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC799EE1EDEEBDF0035E5C9 /* LaunchScreen.storyboard */; };
 		4DC799FB1EDEEBDF0035E5C9 /* iBudgetManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC799FA1EDEEBDF0035E5C9 /* iBudgetManagerTests.swift */; };
 		4DC79A061EDEEBDF0035E5C9 /* iBudgetManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC79A051EDEEBDF0035E5C9 /* iBudgetManagerUITests.swift */; };
-		4DC79A141EDEECD70035E5C9 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC79A131EDEECD70035E5C9 /* SQLite.framework */; };
 		4DC79A161EDEECFD0035E5C9 /* MyDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC79A151EDEECFD0035E5C9 /* MyDB.swift */; };
 		4DC79A171EDEED3D0035E5C9 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC79A131EDEECD70035E5C9 /* SQLite.framework */; };
 		4DC79A181EDEED3D0035E5C9 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC79A131EDEECD70035E5C9 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -56,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47658DE51EDFF61F00D94271 /* addMovimenti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addMovimenti.swift; sourceTree = "<group>"; };
 		4BBF6C5B2F825EC4404F789B /* Pods-iBudgetManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBudgetManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBudgetManager/Pods-iBudgetManager.release.xcconfig"; sourceTree = "<group>"; };
 		4DC799E21EDEEBDF0035E5C9 /* iBudgetManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBudgetManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC799E51EDEEBDF0035E5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC79A141EDEECD70035E5C9 /* SQLite.framework in Frameworks */,
 				F4997939A6045106FFF34456 /* Pods_iBudgetManager.framework in Frameworks */,
 				4DC79A171EDEED3D0035E5C9 /* SQLite.framework in Frameworks */,
 			);
@@ -142,6 +142,7 @@
 				4DC79A1A1EDEF3E50035E5C9 /* Categorie.swift */,
 				4DC79A1C1EDEF5690035E5C9 /* Movimenti.swift */,
 				4DC79A1E1EDF00820035E5C9 /* addCategory.swift */,
+				47658DE51EDFF61F00D94271 /* addMovimenti.swift */,
 			);
 			path = iBudgetManager;
 			sourceTree = "<group>";
@@ -370,6 +371,7 @@
 			files = (
 				4DC799E81EDEEBDF0035E5C9 /* ViewController.swift in Sources */,
 				4DC79A1B1EDEF3E50035E5C9 /* Categorie.swift in Sources */,
+				47658DE61EDFF61F00D94271 /* addMovimenti.swift in Sources */,
 				4DC79A1D1EDEF5690035E5C9 /* Movimenti.swift in Sources */,
 				4DC79A1F1EDF00820035E5C9 /* addCategory.swift in Sources */,
 				4DC799E61EDEEBDF0035E5C9 /* AppDelegate.swift in Sources */,
